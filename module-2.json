@@ -1,33 +1,54 @@
 [
   {
-    "Name": "Undergraduate",
-    "Course":"Web Development",
-    "Module": {
-      "Learning_outcomes":["LO1", "LO2"],
-      "Assignment":["CW1", "CW2"],
-      "Volume":["1000 words", "4000 words"],
-      "weights":["20%", "80%"]
-    }
-  },
-  {
-    "Name": "Post-Graduate",
-    "Course":"Big Data",
-    "Module": {
-    "Learning_outcomes":["LO1", "LO2"],
-    "Assignment":["CW1", "CW2"],
-    "Volume":["1000 words", "4000 words"],
-    "weights":["20%", "80%"]
-    }
-  },
-  {
-    "Name": "Research",
-    "Course":"Data Mining",
-    "Module": {
-      "Learning_outcomes":["LO1", "LO2"],
-      "Assignment":["CW1", "CW2"],
-      "Volume":["1000 words", "4000 words"],
-      "weights":["20%", "80%"]
-    }
-    
+    "Name": "Computer Science",
+    "Course": "Web Development",
+    "Module": [
+      {
+        "Name": "Introduction to HTML",
+        "ID": "CS101",
+        "Hours": 40,
+        "Learning_outcomes": ["LO1", "LO2"],
+        "Credits": 3,
+        "Assessments": [
+          {
+            "Title": "HTML Quiz",
+            "Number": 1,
+            "Learning_outcomes": ["LO1"],
+            "Volume": "20 marks",
+            "Weighting": "20%"
+          },
+          {
+            "Title": "HTML Project",
+            "Number": 2,
+            "Learning_outcomes": ["LO2"],
+            "Volume": "80 marks",
+            "Weighting": "80%"
+          }
+        ]
+      },
+      {
+        "Name": "CSS Fundamentals",
+        "ID": "CS102",
+        "Hours": 30,
+        "Learning_outcomes": ["LO3", "LO4"],
+        "Credits": 2,
+        "Assessments": [
+          {
+            "Title": "CSS Assignment",
+            "Number": 1,
+            "Learning_outcomes": ["LO3"],
+            "Volume": "50 marks",
+            "Weighting": "50%"
+          },
+          {
+            "Title": "CSS Project",
+            "Number": 2,
+            "Learning_outcomes": ["LO4"],
+            "Volume": "50 marks",
+            "Weighting": "50%"
+          }
+        ]
+      }
+    ]
   }
 ]
